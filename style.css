@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-light {
+  background-color: white !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.navbar-light a {
+  color: black !important;
+  padding-left: 10px;
+}
+.navbar-light .iub-logo {
+  height: 40px;
+  width: 40px;
+}
+.navbar-light .navbar-brand {
+  font-size: 34px !important;
+  font-weight: bold !important;
+}
+.navbar-light .nav-item {
+  padding-right: 10px !important;
+}
+
+.navbar-contact {
+  background-color: rgb(24, 152, 190);
+  height: 40px;
+}
+
+.signup-btn {
+  border-radius: 20px !important;
+  border: 1px solid gray !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+@media (max-width: 1024px) {
+  .signup-btn {
+    height: 40px !important;
+  }
+}
+
+.main-context .main-heading {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.main-context .image-box {
+  height: 230px;
+  width: 540px;
+  border-radius: 20px;
+}
+@media (max-width: 576px) {
+  .main-context .image-box {
+    width: 330px;
+    height: 230px;
+    text-align: center;
+  }
+}
+.main-context .image-box img {
+  height: 230px;
+  width: 540px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+@media (max-width: 576px) {
+  .main-context .image-box img {
+    width: 300px;
+    height: 230px;
+  }
+}
+
+.detail-card {
+  padding-top: 6rem;
+}
+@media (max-width: 576px) {
+  .detail-card {
+    padding-top: 2rem;
+  }
+}
+.detail-card .description {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.information-section {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+@media (max-width: 576px) {
+  .information-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.information-section .center-title {
+  text-align: center;
+}
+.information-section .center-para {
+  font-size: 20px;
+  text-align: center;
+}
+.information-section .image-nature {
+  width: 570px;
+  height: 360px;
+  border-radius: 20px;
+}
+@media (max-width: 576px) {
+  .information-section .image-nature {
+    text-align: center;
+  }
+}
+.information-section .image-nature .nature-img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+@media (max-width: 576px) {
+  .information-section .image-nature .nature-img {
+    width: 300px;
+    height: 300px;
+  }
+}
+.information-section .content-box {
+  padding-left: 80px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+@media (max-width: 576px) {
+  .information-section .content-box {
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.mobile-mockups {
+  padding-bottom: 100px;
+}
+.mobile-mockups .mobiles-images {
+  display: flex;
+}
+@media (max-width: 1024px) {
+  .mobile-mockups .mobiles-images {
+    flex-wrap: wrap;
+  }
+}
+.mobile-mockups .mobiles-images .mobile-img {
+  height: 480px;
+  margin-right: 20px;
+  width: 260px;
+}
+@media (max-width: 1024px) {
+  .mobile-mockups .mobiles-images .mobile-img {
+    margin-bottom: 20px;
+  }
+}
+.mobile-mockups .description-channel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.yoga-programs {
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+.yoga-programs .table-head {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+  flex-wrap: unset !important;
+}
+.yoga-programs .table-details {
+  height: 70px;
+  align-items: center;
+  background-color: white;
+  flex-wrap: unset !important;
+}
+@media (max-width: 576px) {
+  .yoga-programs .table-details {
+    height: 170px;
+  }
+}
+@media (max-width: 576px) {
+  .yoga-programs .table-details .col-md-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+.yoga-programs .selected {
+  background-color: #f2f2f2 !important;
+}
+
+.circulum {
+  height: 300px;
+  background-color: black;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .circulum {
+    height: 520px;
+  }
+}
+.circulum .butter-box {
+  height: 160px;
+  width: 160px;
+}
+.circulum .butter-box img {
+  height: 160px;
+  width: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+.circulum .para {
+  font-size: 20px;
+  color: #f2f2f2;
+}
+
+.yoga-description {
+  padding-bottom: 100px;
+}
+.yoga-description .heading-yoga {
+  font-size: 48px;
+  font-weight: bold;
+}
+.yoga-description .para-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: gray;
+}
+
+.footer {
+  height: 520px;
+  background-color: #031B34;
+}
+@media (max-width: 576px) {
+  .footer {
+    height: 1120px;
+  }
+}
+.footer .heading-section {
+  padding-top: 100px;
+}
+@media (max-width: 576px) {
+  .footer .heading-section {
+    padding-top: 50px;
+  }
+}
+.footer .heading-section .footer-heading {
+  color: white;
+}
+.footer .heading-section .footer-para {
+  color: white;
+  font-weight: 500;
+  padding-top: 30px;
+}
+.footer .heading-section .email-input {
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  background: none;
+  outline: none;
+  border: 2px solid #d8d8d8;
+}
+.footer .heading-section .email-input::-moz-placeholder {
+  color: #d8d8d8;
+  padding-left: 20px;
+}
+.footer .heading-section .email-input::placeholder {
+  color: #d8d8d8;
+  padding-left: 20px;
+}
+.footer .heading-section .subcribe-btn {
+  height: 40px;
+  background-color: orange;
+  text-align: center;
+  color: white;
+  width: 180px;
+  transition: 0.5s ease;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.footer .heading-section .subcribe-btn:hover {
+  background-color: white;
+  color: orange;
+}
+.footer .heading-section .terms {
+  margin-top: 75px;
+}
+.footer .yoga-teachers {
+  padding-top: 100px;
+}
+@media (max-width: 576px) {
+  .footer .yoga-teachers {
+    padding-top: 50px;
+  }
+}
+.footer .yoga-learn {
+  padding-top: 100px;
+  padding-left: 85px;
+}
+@media (max-width: 576px) {
+  .footer .yoga-learn {
+    padding-top: 50px;
+    padding-left: 10px;
+  }
+}
+.footer .yoga-learn .trainings-btn {
+  height: 50px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  width: 160px;
+  transition: 0.5s ease;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 40px;
+  margin-left: 2rem;
+}
+.footer .yoga-learn .trainings-btn:hover {
+  background-color: white;
+  color: blue;
+}
+@media (max-width: 576px) {
+  .footer .yoga-learn .trainings-btn {
+    margin-left: 0;
+  }
+}
+.footer .yoga-learn .learn-para {
+  padding-left: 3.6rem;
+}
+@media (max-width: 576px) {
+  .footer .yoga-learn .learn-para {
+    padding-left: 1.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */

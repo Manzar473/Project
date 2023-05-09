@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-light {
+    background-color: white !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    a {
+        color: black !important;
+        padding-left: 10px;
+    }
+    .iub-logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .navbar-brand {
+        font-size: 34px !important;
+        font-weight: bold !important;
+    }
+
+    .nav-item {
+        padding-right: 10px !important;
+    }
+}
+.navbar-contact {
+    background-color: rgb(24, 152, 190);
+    height: 40px;
+}
+.signup-btn {
+    border-radius: 20px !important;
+    border: 1px solid gray !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    @media (max-width:1024px) {
+        height: 40px !important;
+    }
+} 
+
+.main-context {
+
+
+    .main-heading {
+        font-size: 50px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+
+    .image-box {
+        height: 230px;
+        width: 540px;
+        border-radius: 20px;
+        @media (max-width:576px) {
+            width: 330px;
+            height: 230px;
+            text-align: center;
+        }
+        img {
+            height: 230px;
+            width: 540px;
+            object-fit: cover;
+            border-radius: 20px;
+            @media (max-width:576px) {
+                width: 300px;
+                height: 230px;
+            }
+        }
+    }
+}
+
+.detail-card {
+    padding-top: 6rem;
+    @media (max-width:576px) {
+        padding-top: 2rem;
+    }
+
+    .description {
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+}
+
+
+.information-section {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    @media (max-width:576px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .center-title {
+        text-align: center;
+    }
+    .center-para {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .image-nature {
+        width: 570px;
+        height: 360px;
+        border-radius: 20px;
+        @media (max-width:576px) {
+            text-align: center;
+        }
+
+        .nature-img {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 20px;
+
+            @media (max-width:576px) {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+    
+    .content-box {
+        padding-left: 80px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        @media (max-width:576px) {
+            padding-left: 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.mobile-mockups {
+    padding-bottom: 100px;
+    .mobiles-images {
+        display: flex;
+        @media (max-width:1024px) {
+            flex-wrap: wrap;
+        }
+        .mobile-img {
+            height: 480px;
+            margin-right: 20px;
+            width: 260px;
+            @media (max-width:1024px) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .description-channel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+
+.yoga-programs {
+    padding-bottom: 100px;
+    padding-top: 40px;
+
+    .table-head {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-weight: bold;
+        flex-wrap: unset !important;
+    }
+    .table-details {
+        height: 70px;
+        align-items: center;
+        background-color: white;
+        flex-wrap: unset !important;
+
+        @media (max-width:576px) {
+            height: 170px;
+        }
+
+        .col-md-6 {
+            @media (max-width:576px) {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+        }
+    }
+
+    .selected {
+        background-color: #f2f2f2 !important;
+    }
+}
+
+.circulum {
+    height: 300px;
+    background-color: black;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+
+    @media (max-width:576px) {
+        height: 520px;
+    }
+
+    .butter-box {
+        height: 160px;
+        width: 160px;
+
+        img {
+            height: 160px;
+            width: 160px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+    }
+
+    .para {
+        font-size: 20px;
+        color: #f2f2f2;
+    }
+}
+
+.yoga-description {
+    padding-bottom: 100px;
+
+    .heading-yoga {
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .para-text {
+        font-size: 20px;
+        font-weight: 600;
+        color: gray;
+    }
+}
+
+.footer {
+    height: 520px;
+    background-color: #031B34;
+    @media (max-width:576px) {
+        height: 1120px;
+    }
+
+    .heading-section {
+        padding-top: 100px;
+        @media (max-width:576px) {
+            padding-top: 50px;
+        }
+
+        .footer-heading {
+            color: white;
+        }
+
+        .footer-para {
+            color: white;
+            font-weight: 500;
+            padding-top: 30px;
+        }
+
+        .email-input {
+            width: 250px;
+            height: 40px;
+            border-radius: 20px;
+            background: none;
+            outline: none;
+            border: 2px solid #d8d8d8;
+
+            &::placeholder {
+                color: #d8d8d8;
+                padding-left: 20px;
+            }
+        }
+        .subcribe-btn {
+            height: 40px;
+            background-color: orange;
+            text-align: center;
+            color: white;
+            width: 180px;
+            transition: 0.5s ease;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 20px;
+            &:hover {
+                background-color: white;
+                color: orange;
+            }
+        }
+
+        .terms {
+            margin-top: 75px;
+        }
+    }
+
+    .yoga-teachers {
+        padding-top: 100px;
+        @media (max-width:576px) {
+            padding-top: 50px;
+        }
+    }
+
+    .yoga-learn {
+        padding-top: 100px;
+        padding-left: 85px;
+        @media (max-width:576px) {
+            padding-top: 50px;
+            padding-left: 10px;
+        }
+
+        .trainings-btn {
+            height: 50px;
+            background-color: blue;
+            text-align: center;
+            color: white;
+            width: 160px;
+            transition: 0.5s ease;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 40px;
+            margin-left: 2rem;
+            &:hover {
+                background-color: white;
+                color: blue;
+            }
+            @media (max-width:576px) {
+                margin-left: 0;
+            }
+        }
+        .learn-para {
+            padding-left: 3.6rem;
+            @media (max-width:576px) {
+                padding-left: 1.5rem;
+            }
+        }
+    }
+}
